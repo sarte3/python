@@ -1,0 +1,9 @@
+dictionary = {
+    'name': '70 건조 망고',
+    'type': '당절임',
+    'Ingredient': ['망고', '설탕', '메타중아황산나트륨', '치자황색소'],
+    'origin': '필리핀'
+}
+
+for key in dictionary:
+    print(key, ":", dictionary[key])
