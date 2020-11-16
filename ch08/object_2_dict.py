@@ -13,6 +13,7 @@ students = [
     create_student('연하진', 92, 98 ,97, 54)
 ]
 
+
 print('이름', '총점', '평균', sep='\t')
 for student in students:
     score_sum = student['korean'] + student['math'] + student['english'] + student['science']
